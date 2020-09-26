@@ -8,19 +8,20 @@
 }
 header {
     background-color: #61A0BD;
+    height: 200px;
 }
 
 header h1 {
-    font-style: 'Lato', sans-serif;
-    font-size: 80pt;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40pt;
     text-align: center;
     color: white;
-    text-shadow: 2px 2px 2px #3D3D3D;
+    opacity: 75%;
     font-weight: 100;
 }
 
 nav {
-    background-color: #D6D6D6;
+    background-color: #EBEBEB;
     border: solid black;
     border-width: 1px 0;
 }
@@ -35,9 +36,11 @@ nav {
 
 .nav-bar a {
     color: #3D3D3D;
-    font-style: 'Lato', sans-serif;
-    font-size: 25pt;
+    opacity: 85%;
+    font-family: 'Lato', sans-serif;
+    font-size: 20pt;
     text-decoration: none;
+    font-weight: 100;
 }
 
 
@@ -62,9 +65,38 @@ body {
 }
 #icon_container section {
     text-align: center;
-    padding: 5px;
+    padding: 10px 0;
+    line-height: 130%;
 }
 
 #icon_container p {
     max-width: 22ch;
 } 
+
+body hr {
+    border-top: 1px solid #EBEBEB;
+}
+
+#about h2, h3 {
+    color: #61A0BD;
+    text-align: center;
+    padding-top: 3em;
+    padding-bottom: 20px;
+}
+
+
+
+
+@media only screen and (max-width: 750px) {
+    .nav-bar a {
+        font-size: 12pt;
+    
+}
+
+}
+
+@media only screen and (max-width: 449px) {
+    .nav-bar a {
+        font-size: 10pt;
+    }
+}
