@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 header {
-    background-color: #488DAD;
+    background-color: #61A0BD;
 }
 
 header h1 {
@@ -16,22 +16,25 @@ header h1 {
     text-align: center;
     color: white;
     text-shadow: 2px 2px 2px #3D3D3D;
+    font-weight: 100;
 }
 
 nav {
-    background-color: #3D3D3D;
+    background-color: #D6D6D6;
+    border: solid black;
+    border-width: 1px 0;
 }
 
 .nav-bar {
-    /* width: 100vw; */
     display: flex;
     justify-content: space-around;
     list-style: none;
+  
 
 }
 
 .nav-bar a {
-    color: white;
+    color: #3D3D3D;
     font-style: 'Lato', sans-serif;
     font-size: 25pt;
     text-decoration: none;
@@ -44,3 +47,22 @@ body {
     background-color: white;
 
 }
+
+#icon_container {
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid red;
+}
+
+.icon {
+    color: #61A0BD;
+    font-size: 90px;
+    padding: 10px 5px;
+    width: 100%;
+    border: 2px solid black;
+}
+
+#icon_container p {
+    max-width: 15ch;
+    text-align: center;
+} 
